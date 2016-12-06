@@ -7,8 +7,8 @@
 
 ## wxg.161206.howTo ##
 from:http://www.vim.org/git.php
-The Vim repository at GitHub
 
+The Vim repository at GitHub
 Vim is available through git. This is the most straightforward way to get Vim and keep it up-to-date. If you prefer to use Mercurial, look at the Mercurial page
 
 You can obtain Vim for the first time with:
@@ -35,9 +35,6 @@ cd src
 make distclean  # if you build Vim before
 make
 sudo make install
-
-
-
 
 
 
