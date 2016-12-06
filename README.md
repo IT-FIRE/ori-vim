@@ -12,7 +12,9 @@ You can obtain Vim for the first time with:
 git clone https://github.com/vim/vim.git
 
 And, if you don't have local changes, update to the latest version with:
+
 cd vim
+
 git pull
 
 If you made some changes, e.g. to a makefile, you can keep them and merge with the latest version with:
