@@ -4,39 +4,12 @@
 [![Appveyor Build status](https://ci.appveyor.com/api/projects/status/o2qht2kjm02sgghk?svg=true)](https://ci.appveyor.com/project/chrisbra/vim)
 [![Coverity Scan](https://scan.coverity.com/projects/241/badge.svg)](https://scan.coverity.com/projects/vim)
 
-
 ## wxg.161206.howTo ##
-from:http://www.vim.org/git.php
-
-The Vim repository at GitHub
-Vim is available through git. This is the most straightforward way to get Vim and keep it up-to-date. If you prefer to use Mercurial, look at the Mercurial page
+http://www.vim.org/git.php
 
 You can obtain Vim for the first time with:
 
 git clone https://github.com/vim/vim.git
-And, if you don't have local changes, update to the latest version with:
-cd vim
-git pull
-If you made some changes, e.g. to a makefile, you can keep them and merge with the latest version with:
-cd vim
-git stash
-git pull
-git stash pop
-If you have local changes you may need to merge. If you are sure you can discard local changes (e.g. if you were just trying a patch), you can use:
-git fetch --all
-git reset --hard origin/master
-If you don't know how to use git, you'll probably want to look at the Documentation.
-
-Building Vim
-
-Build and install Vim as usual. If you are happy with the defaults:
-
-cd src
-make distclean  # if you build Vim before
-make
-sudo make install
-
-
 
 
 ## What is Vim? ##
